@@ -1,0 +1,44 @@
+.content-container{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.button{
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.mango{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Center the text */
+    color: black;
+    
+}
+
+    .banana {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center; /* Center the text */
+        color: black;
+        padding-top: 100px;
+        
+}
+.fruit-container {
+    display: flex; /* Use flexbox to layout fruits */
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Adds space between the two fruit sections */
+    margin-top: 20px; /* Adds margin above the fruit container */
+    background-color: white;
+   
+    text-align: center;
+}
+
+.eaten-number {
+    color: yellow; /* Set the text color to yellow */
+    font-weight: bold; /* Optional: make the text bold for better visibility */
+}

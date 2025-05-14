@@ -1,0 +1,23 @@
+.mode {
+    min-height: 50vh; /* Make sure it covers the full viewport height */
+    padding: 20px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    border-style: groove;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px;
+    .button{
+        border-radius: 20px;
+    }
+  }
+  
+  .mode.dark {
+    background-color: black;
+    color: white; /* Optional: change text color for readability */
+  }
+  
+  .mode.light {
+    background-color: white;
+    color: black; /* Optional: change text color for readability */
+  }
